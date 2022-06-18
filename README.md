@@ -20,25 +20,29 @@ The converted value must be under the the button or place in the body.
 
 **Group A**
 Create a BMI converter. 
+candidates: Focus, danztee, Peexzy
 
 # Create a branch on this repo name it groupa and push to it.
 # Push your solution to branch
 
 **GROUP B**
 Create a radian to degree.
+candidates : Adebayour66265, @Mr Jungle, @habibah
 
 # Create a branch on this repo name it groupb and push to it.
 # Push your solution to branch
 
-*Group C**
+**Group C**
 Create a converter that convert strings to character code(UTF-16)
+candidates: Lilkehz, Muhammad, DYDX
 
 # Create a branch on this repo name it groupc and push to it.
 # Push your solution to branch
 
 
-*Group D**
+**Group D**
 Create a percentage calculator. simple image is in the repository directory. 
+candidates: Mr ibrahim, Mrs. Fateemah, Zainab
 
 # Create a branch on this repo name it groupd and push to it.
 # Push your solution to branch
