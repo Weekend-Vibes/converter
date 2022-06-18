@@ -38,7 +38,7 @@ Create a converter that convert strings to character code(UTF-16)
 
 
 *Group D**
-Create a percentage calculator
+Create a percentage calculator. simple image is in the repository directory. 
 
 # Create a branch on this repo name it groupd and push to it.
 # Push your solution to branch
