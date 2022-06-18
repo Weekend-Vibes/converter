@@ -37,5 +37,11 @@ Create a converter that convert strings to character code(UTF-16)
 # Push your solution to branch
 
 
+*Group D**
+Create a percentage calculator
 
-Follow *weekendvibe* on Twitter and on github.
+# Create a branch on this repo name it groupd and push to it.
+# Push your solution to branch
+
+
+Follow *_weekendvibe* on Twitter and on github.
