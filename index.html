@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BMI Calculator</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="box1">
-      <form action="">
-        <label for="text">What is</label>
-        <input type="text" name="" id=""> % <br>
-        <label for="text">of</label>
-        <input type="text"> ? <br>
-        <label for="button"><button>calculate</button></label>
-        <input type="text">
-      </form>
-    </div>
 
-    <div class="box2">
-      <for action="">
-        <input type="text">
-        <label for="text"> is what percent</label> <br>
-        <label for="text">of</label>
-        <input type="text"> ? <br>
-        <label for="button"><button>calculate</button></label>
-        <input type="text"> %
-      </form>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <div class="box3">
-      <form action="">
-        <label for="text"> What is the percentage increase/decrease</label> <br>
-        <label for="text">from</label>
-        <input type="text">
-         <label for="text">to</label> 
-         <input type="text"> <br>
-        <label for="button"><button>calculate</button></label>  <br>
-        <input type="text"> %
+<body>
+  <div class="box1">
+    <form>
+      <label for="text">What is</label>
+      <input type="text" name="" id="percent"> % <br>
+      <label for="text">of</label>
+      <input type="text" id="total"> ? <br>
+      <label for="button"><button type="submit" id="calc">calculate</button></label>
+      <p id="result"></p>
+    </form>
+  </div>
+
+  <div class="box2">
+    <for action="">
+      <input type="text" id="percent2">
+      <label for="text"> is what percent</label> <br>
+      <label for="text">of</label>
+      <input type="text" id="total2"> ? <br>
+      <label for="button"><button id="calc2">calculate</button></label>
+      <p id="result2"></p>
       </form>
-    </div>
-  </body>
+  </div>
+
+  <div class="box3">
+    <form action="">
+      <label for="text"> What is the percentage increase/decrease</label> <br>
+      <label for="text">from</label>
+      <input type="text" id="percent3">
+      <label for="text">to</label>
+      <input type="text" id="total3"> <br>
+      <label for="button"><button id="calc3">calculate</button></label> <br>
+      <p id="result3"></p>
+    </form>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
 </html>
