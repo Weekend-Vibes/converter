@@ -11,7 +11,6 @@ calcBtn.addEventListener("click", function (e) {
     let percentVal = percent.value;
     let totalVal = total.value;
     let result = (percentVal / 100) * totalVal;
-    console.log(result);
     ans.innerHTML = result;
 })
 
@@ -23,7 +22,6 @@ calcBtn2.addEventListener("click", function (e) {
     let percentVal = percent.value;
     let totalVal = total.value;
     let result = (percentVal / totalVal) * 100;
-    console.log(result.toFixed(2));
     ans2.innerHTML = `${result.toFixed(2)}%`;
 })
 
