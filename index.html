@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COOL BMI CALCULATOR</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
     <header>
-        <h1 class="header">BMI CALCULATOR</h1>
+      <h1 class="header">BMI CALCULATOR</h1>
     </header>
     <section class="section">
-        <div class="first-div">
-            <h2 class="weight">Weight</h2>
-          <input class="cal" type="number" placeholder="0.00">
-        </div>
-        <div>
-            <div class="first-div">
-                <h2 class="height">Height</h2>
-              <input class="cal" type="number" placeholder="0.00">
-            </div>
-        </div>
-        <div><button class="btn">CALCULATE BMI</button></div>
-        <div><input class="total" type="number"></div>
-        <p>Normal</p>
-        <p>Pleace enter height in[cm] and weight in[kg]</p>
+      <div class="first-div">
+        <h2 class="weight">Weight</h2>
+        <input class="cal" type="number" placeholder="000" id="weight" />
+        <span>KG</span>
+      </div>
+      <div class="first-div">
+        <h2 class="height">Height</h2>
+        <input class="cal" type="number" placeholder="000" id="height" />
+        <span>CM</span>
+      </div>
+      <button class="btn">CALCULATE BMI</button>
+      <div class="total">
+        <span class="tip">00.0</span>
+        <p class="textC">Your BMI is considered <span class="word"></span></p>
+      </div>
     </section>
-
-</body>
-
+  </body>
 </html>
