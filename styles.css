@@ -1,0 +1,23 @@
+.box1{
+    background-color: rgb(197, 193, 193);
+    height: 20vh;
+    width: 200px;
+    padding: 3% 3%;
+}
+.box2{
+    background-color: rgb(196, 189, 189);
+    height: 20vh;
+    width: 200px;
+    padding: 3% 3%;
+    margin-top: 10px;
+}
+.box3{
+    background-color: rgb(199, 194, 194);
+    height: 20vh;
+    width: 200px;
+    padding: 3% 3%;
+    margin-top: 10px;
+}
+input{
+width: 100px;
+}
