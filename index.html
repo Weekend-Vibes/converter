@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COOL BMI CALCULATOR</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="app.js"></script>
-  </head>
-  <body>
-    <header>
-      <h1 class="header">BMI CALCULATOR</h1>
-    </header>
-    <section class="section">
-      <div class="first-div">
-        <h2 class="weight">Weight</h2>
-        <input class="cal" type="number" placeholder="000" id="weight" />
-        <span>KG</span>
-      </div>
-      <div class="first-div">
-        <h2 class="height">Height</h2>
-        <input class="cal" type="number" placeholder="000" id="height" />
-        <span>CM</span>
-      </div>
-      <button class="btn">CALCULATE BMI</button>
-      <div class="total">
-        <span class="tip">00.0</span>
-        <p class="textC">Your BMI is considered <span class="word"></span></p>
-      </div>
-    </section>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degree To Radient</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1>Degree Covert to Radians</h1>
+
+  <div class="container">
+    <label for="degree">Degrees</label>
+    <input type="number" name="degrees" id="degree" class="input" placeholder="   Degree">
+
+    <br>
+    <label for="radians">Radians</label>
+    <input type="number" name="radient"  id="radians" class="input" placeholder="   Radians">
+  </div>
+
+
+  <script>
+    const degreeInput = document.getElementById("degree");
+    console.log(degreeInput);
+
+    function covertToRadiens() {
+        const degreeValue = document.getElementById("degree").value;
+        let radientValue = degreeValue * (3.14 / 180);
+        document.getElementById("radians").value = radientValue;
+    }
+
+    degreeInput.addEventListener("input", covertToRadiens);
+  </script>
+
+</body>
 </html>
